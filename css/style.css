@@ -75,7 +75,7 @@
 }
 
 body {
-    background: var(--background-primary-color);
+    background: var(--white-color);
     color: var(--primary-text-color) ;
     
     font-family: 'Roboto','Raleway';
@@ -192,17 +192,22 @@ a {
 .hero {
     background-color: var(--background-hero-footer-color);
     /* outline: 2px solid tomato; */
-    text-align: center;
-    max-width: 1200px;
+    padding: 200px 0;
     
+}
+
+.container-hero {
+    text-align: center;
+        
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-.container-hero {
-    padding: 200px 283px;    
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-title {
@@ -212,8 +217,8 @@ a {
     letter-spacing: 0.06em;
     /* outline: 2px solid tomato; */
     color: var(--white-color);
-    margin-top: 0;
-    margin-bottom: 30px;            
+    max-width: 696px;
+    
 }
 
 
@@ -227,8 +232,7 @@ a {
     border: 1px solid transparent;
     min-width: 216px;
     min-height: 50px;
-    padding: 10px 32px;
-        
+    padding: 10px 32px;    
     align-items: center;
     
     /* outline: 2px solid tomato; */
@@ -251,14 +255,15 @@ a {
 /* section info */
 
 .section-info {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    padding: 94px 0;
 }
 
 .container-info {
     padding: 94px 0 ;
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
 }
 
 .info {
@@ -271,14 +276,15 @@ a {
 /* section visual */
 
 .section-visual {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    padding: 0 0 94px;
 }
 
 .container-visual {
     padding: 0 0 94px;
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
 }
 
 .main-img {
@@ -302,15 +308,15 @@ a {
 
 .section-teem {
     background-color: var(--background-primary-color);
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    padding: 94px 0;
     /* outline: 3px solid tomato; */
 }
 
 .container-teem {
-    padding: 94px 0;
+    padding: 94px 0;width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
     /* outline: 3px solid tomato; */
 
 }
@@ -356,8 +362,6 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
-
-    margin: 30px 0 10px;
 }
 
 .subsection-teem {
@@ -368,24 +372,29 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--title-text-color);
-    padding-bottom: 30px;
-    margin: 0;
-    
+    margin: 0;    
 }
+
+.container-item {
+    padding: 30px 0;
+}
+
+
 
 /* footer */
 
 .page-footer {
     background-color: var(--background-hero-footer-color);
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
+    padding: 60px 0;
     /* outline: 3px solid tomato; */
 }
 
 .container-footer {
     padding: 60px 0;
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
     /* outline: 3px solid tomato; */
 }
 
@@ -433,16 +442,17 @@ a {
 /* portfolio */
 
 .section-portfolio {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    background-color: var(--background-portfolio);
+    padding: 94px 0;
+    background-color: var(--white-color);
     /* outline: 3px solid tomato; */
 }
 
 .container-portfolio {
     padding: 94px 0;
+    width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
     /* outline: 3px solid tomato; */
 }
 
@@ -492,8 +502,6 @@ a {
     flex-wrap: wrap;
 }
 
-
-
 .subdivision-portfolio {
     border: 1px solid var(--background-subsection-portfolio);
     background-color: var(--white-color);
@@ -510,7 +518,8 @@ a {
     /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
     margin: 0;
-    padding: 20px 24px 4px;
+    max-width: 322px;
+    
 }
 
 .subsection-portfolio {
@@ -520,7 +529,11 @@ a {
     /* outline: 2px solid tomato; */
     color: var(--title-text-color);
     margin: 0;
-    padding: 0 24px 20px;    
+        
+}
+
+.container-portfolio-item {
+    padding: 20px 24px ;
 }
 
 
