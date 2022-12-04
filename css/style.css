@@ -83,6 +83,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+
 }
 
 a {
@@ -111,7 +112,7 @@ a {
 
 .page-header{
     background-color: var(--white-color);
-    
+    border: 1px solid var(--background-primary-color);
 }
 
 .menu {
