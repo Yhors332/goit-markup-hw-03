@@ -483,6 +483,7 @@ a {
     background-color: var(--background-primary-color);
 
     cursor: pointer;
+    padding: 6px 22px;
 }
 
 .btn-portfolio:hover,
