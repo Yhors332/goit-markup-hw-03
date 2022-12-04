@@ -219,7 +219,7 @@ a {
     /* outline: 2px solid tomato; */
     color: var(--white-color);
     max-width: 696px;
-    
+    margin: 0 0 30px;
 }
 
 
@@ -252,6 +252,7 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
+    margin: 0 0 10px;
 }
 /* section info */
 
@@ -262,9 +263,9 @@ a {
 .container-info {
     padding: 94px 0 ;
     width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
 }
 
 .info {
@@ -283,17 +284,23 @@ a {
 .container-visual {
     padding: 0 0 94px;
     width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
 }
 
 .main-img {
     display: flex;
 }
 
+
 .item-visual {
     /* outline: 2px solid tomato; */
+    
+}
+
+.img-item {
+    display: block;
 }
 
 .main-img .item-visual+.item-visual {
@@ -304,6 +311,7 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--title-text-color);
+    margin: 0;
 }
 /* section teem */
 
@@ -363,6 +371,7 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
+    margin: 0 0 10px;
 }
 
 .subsection-teem {
@@ -407,16 +416,8 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--white-color);
-}
-
-.address-footer {
-    margin: 20px 0 9px;
-    /* outline: 3px solid tomato; */
-}
-
-.address-info {
-    margin: 9px 0;
-    /* outline: 3px solid tomato; */
+    margin: 0 0 20px;
+    display: inline-block;
 }
 
 .adrs {
@@ -427,6 +428,7 @@ a {
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
     color: var(--white-color);
+    display: inline-block;
 }
 
 .mail,
@@ -437,7 +439,20 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     /* outline: 2px solid tomato; */
-    color: var(--footer-text-color);    
+    color: var(--footer-text-color);
+    display: inline-block;    
+}
+
+.adrs {
+    margin: 0 0 9px;
+}
+
+.mail {
+    margin: 0 0 9px;
+}
+
+.tel {
+    margin: 0;
 }
 
 /* portfolio */
