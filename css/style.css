@@ -193,8 +193,8 @@ a {
     background-color: var(--background-hero-footer-color);
     /* outline: 2px solid tomato; */
     text-align: center;
-    width: 1200px;
-    height: 600px;
+    max-width: 1200px;
+    
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -306,12 +306,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .container-teem {
     padding: 94px 0;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 
 }
 
@@ -331,7 +331,7 @@ a {
 
 .teem-page {
     display: flex;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .item-teem{
@@ -340,12 +340,12 @@ a {
                 0px 1px 1px rgba(0, 0, 0, 0.14),
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .teem-page .item-teem+.item-teem {
     margin-left: 30px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .section-teem-title {
@@ -354,7 +354,7 @@ a {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
 
     margin: 30px 0 10px;
@@ -366,7 +366,7 @@ a {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     color: var(--title-text-color);
     padding-bottom: 30px;
     margin: 0;
@@ -381,12 +381,12 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .container-footer {
     padding: 60px 0;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .page-logo-end {
@@ -401,12 +401,12 @@ a {
 
 .address-footer {
     margin: 20px 0 9px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .address-info {
     margin: 9px 0;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .adrs {
@@ -438,25 +438,25 @@ a {
     margin-right: auto;
     padding: 0 15px;
     background-color: var(--background-portfolio);
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .container-portfolio {
     padding: 94px 0;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .menu-portfolio {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 56px;outline: 
-    3px solid tomato;
+    margin-bottom: 56px;
+    /* outline: 3px solid tomato; */
 }
 
 .menu-portfolio .nav-menu+.nav-menu {
     margin-left: 8px;
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
 
 .btn-portfolio {
@@ -468,7 +468,7 @@ a {
     letter-spacing: 0.03em;
     border-radius: 4px;
     border: 1px solid var(--background-subsection-portfolio);
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
     background-color: var(--background-primary-color);
 
@@ -483,13 +483,23 @@ a {
                 0px 1px 2px rgba(0, 0, 0, 0.08),
                 0px 2px 2px rgba(0, 0, 0, 0.12);
     border: 1px solid var(--accent-color);
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
 }
+
+.portfolio-nav {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
 
 .subdivision-portfolio {
     border: 1px solid var(--background-subsection-portfolio);
     background-color: var(--white-color);
-    outline: 3px solid tomato;
+    /* outline: 3px solid tomato; */
+    flex-basis: calc((100% - 60px)/ 9);
+    max-width: 370px;
 }
 
 .section-portfolio-title {
@@ -499,6 +509,8 @@ a {
     letter-spacing: 0.06em;
     /* outline: 2px solid tomato; */
     color: var(--primary-text-color);
+    margin: 0;
+    padding: 20px 24px 4px;
 }
 
 .subsection-portfolio {
@@ -508,7 +520,10 @@ a {
     /* outline: 2px solid tomato; */
     color: var(--title-text-color);
     margin: 0;
+    padding: 0 24px 20px;    
 }
+
+
 
 
 
