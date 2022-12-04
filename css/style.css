@@ -112,7 +112,7 @@ a {
 
 .page-header{
     background-color: var(--white-color);
-    border: 1px solid var(--background-primary-color);
+    border: 1px solid transparent
 }
 
 .menu {
@@ -157,9 +157,7 @@ a {
     color: var(--accent-color);
 }
 
-.item {
-    
-}
+
 
 .auth-nav {
     display: flex;
@@ -291,12 +289,6 @@ a {
 
 .main-img {
     display: flex;
-}
-
-
-.item-visual {
-    /* outline: 2px solid tomato; */
-    
 }
 
 .img-item {
